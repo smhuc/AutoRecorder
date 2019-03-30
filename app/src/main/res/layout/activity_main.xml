@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_layout_header" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll_choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                android:padding="10.0dip">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40.0dip"
+                        android:background="@mipmap/pic2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="（采集源）"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12.0sp" />
+
+                    <TextView
+                        android:id="@+id/file_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="24.0sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="(请说中文)"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12.0sp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20.0dip"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="所属类型："
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/file_name_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="20.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="10.0dip"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/ll_play_record"
+                    android:layout_width="match_parent"
+                    android:layout_height="60.0dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/btn_selector"
+                    android:gravity="center"
+                    android:text="播放"
+                    android:textSize="20.0sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_recorder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20.0dip"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dcp_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="20.0dip"
+                        android:textColor="@android:color/darker_gray"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/txt_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="4.0dip"
+                        android:textSize="16.0sp" />
+
+                    <com.jeejio.autorecorder.utils.MyButton
+                        android:id="@+id/tv_record"
+                        android:layout_width="match_parent"
+                        android:layout_height="60.0dip"
+                        android:background="@drawable/btn_selector"
+                        android:text="按下录音"
+                        android:textSize="20.0sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llrr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5.0dip"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="中科物栖（北京）科技有限责任公司"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="14.0sp" />
+
+                        <TextView
+                            android:id="@+id/version_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="12.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/img_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+    </FrameLayout>
+</RelativeLayout>

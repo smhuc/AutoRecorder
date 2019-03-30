@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">音频采集器</string>
+    <string name="rationale_sd">需要SD卡读写及录音权限</string>
+    <string name="rationale_record">需要录音权限</string>
+</resources>

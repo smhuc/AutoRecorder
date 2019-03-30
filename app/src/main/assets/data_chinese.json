@@ -1,0 +1,180 @@
+[
+  {
+    "province": "Apps",
+    "city_list": [
+      "小熊讲故事",
+	  "单词拼写",
+      "猜声音",
+      "十二生肖",
+      "股票",
+      "天气",
+	  "闹钟",
+	  "画画游戏",
+	  "聊天",
+      "坐姿检测"
+    ]
+  },
+  {
+    "province": "Apps Command",
+    "city_list": [
+      "打开",
+	  "关闭",
+      "猜对了",
+      "猜错了",
+      "我不知道",
+      "我忘记了",
+	  "我不会",
+	  "我拼不出来",
+      "请调整坐姿"
+    ]
+  },
+  {
+    "province": "Story machine",
+    "city_list": [
+      "小熊讲故事",
+	  "下一个故事",
+      "上一个故事",
+      "故事暂停",
+      "故事继续",
+      "故事播放",
+	  "重复一遍"
+    ]
+  },
+  {
+    "province": "Guessing sounds1",
+    "city_list": [
+      "狗",
+      "公鸡",
+      "猪",
+      "奶牛",
+	  "青蛙",
+	  "猫",
+	  "母鸡",
+	  "苍蝇",
+      "羊",
+	  "乌鸦"
+    ]
+  },
+    {
+    "province": "Guessing sounds2",
+    "city_list": [
+      "雨",
+      "海浪",
+      "霹雳火",
+      "蟋蟀",
+	  "画眉鸟",
+	  "水滴",
+	  "风",
+	  "倒水",
+      "厕所冲水",
+	  "雷雨"
+    ]
+  },
+  {
+    "province": "Guessing sounds3",
+    "city_list": [
+      "婴儿哭",
+      "打喷嚏",
+      "鼓掌",
+      "呼吸",
+	  "咳嗽",
+	  "脚步",
+	  "笑",
+	  "刷牙",
+      "打呼噜",
+	  "吃喝"
+    ]
+  },
+  {
+    "province": "Guessing sounds4",
+    "city_list": [
+      "敲门",
+      "点击鼠标",
+      "键盘打字",
+      "开门",
+	  "开罐头",
+	  "洗衣机",
+	  "吸尘器",
+	  "闹钟",
+      "时钟",
+	  "玻璃破碎"
+    ]
+  },
+  {
+    "province": "Guessing sounds5",
+    "city_list": [
+      "直升机",
+      "电锯",
+      "汽车警报",
+      "汽车喇叭",
+	  "发动机",
+	  "火车",
+	  "教堂钟声",
+	  "飞机",
+      "烟花",
+	  "手锯"
+    ]
+  },
+  {
+    "province": "26 letter",
+    "city_list": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+	  "F",
+	  "G",
+      "H",
+      "I",
+      "J",
+      "K",
+	  "L",
+	  "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+	  "R",
+      "S",
+      "T",
+	  "U",
+	  "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ]
+  },
+  {
+  "province": "Spelling Words",
+    "city_list": [
+      "Apple",
+      "Bear",
+      "Cat",
+      "Dog",
+      "Ear",
+	  "Farm",
+	  "Good",
+      "Happy",
+      "Ice",
+      "Jeejio",
+      "Kitchen",
+	  "Look",
+	  "Monkey",
+      "New",
+      "Orange",
+      "Python",
+      "Quit",
+	  "Red",
+      "Super",
+      "Test",
+	  "University",
+	  "Vechile",
+      "When",
+      "X-ray",
+      "Yellow",
+      "Zip"
+	]
+  }
+]
